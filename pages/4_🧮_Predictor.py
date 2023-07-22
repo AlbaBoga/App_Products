@@ -23,7 +23,7 @@ if option=='Pycaret, Extreme Gradient Boosting':
     # --pycaret
     if st.button('Redirección 👈'):
         link = 'https://electronicsmodels.streamlit.app/Pycaret_Extreme_Gradient_Boosting'
-        st.markdown(f'<a href="{link}">Predictor</a>', unsafe_allow_html=True)
+        st.markdown(f'<a href="{link}">Predictor Extreme Gradient Boosting (Pycaret)</a>', unsafe_allow_html=True)
     else:
         st.write('📝 Estimando ... ')
     # --pycaret
@@ -33,7 +33,7 @@ elif option=='Gradient Boosting Classifier':
 # --GBC
     if st.button('Redirección 👈'):
         link = 'https://electronicsmodels.streamlit.app/Gradient_Boostring_Classifier'
-        st.markdown(f'<a href="{link}">Predictor</a>', unsafe_allow_html=True)
+        st.markdown(f'<a href="{link}">Predictor Gradient Boosting Classifier</a>', unsafe_allow_html=True)
     else:
         st.write('📝 Estimando ... ')
 # --GBC
@@ -43,7 +43,7 @@ elif option=='Red Neuronal':
 # --NN
     if st.button('Redirección 👈'):
         link = 'https://electronicsmodels.streamlit.app/Red_Neuronal'
-        st.markdown(f'<a href="{link}">Predictor</a>', unsafe_allow_html=True)
+        st.markdown(f'<a href="{link}">Predictor Neural Network</a>', unsafe_allow_html=True)
     else:
         st.write('📝 Estimando ... ')
 # --NN
