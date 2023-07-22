@@ -44,6 +44,7 @@ if option=='Pycaret, Extreme Gradient Boosting':
         data = pd.DataFrame({'prices.amountMax': [max_price], 'prices.amountMin': [min_price], 'Disponibilidad':[disponibilidad], 'Estado': [estado],
         'prices.isSale': [sale], 'Envios':[envio], 'Categoria Principal':[cat_prim],
         'secondary category':[cat_sec]})
+        from pycaret.regression import load_model
         loaded_model = load_model('digital_class')
         prediction = predict_model(loaded_model, data=data)
         return prediction
