@@ -15,7 +15,7 @@ st.sidebar.title('MENÚ 🛒')
 option = st.sidebar.radio('',('Resumen de los datos', 'Conclusiones'))
 
 if option=='Resumen de los datos':
-    st.markdown("""<iframe title="Report Section" width="1024" height="804" src="https://app.powerbi.com/view?r=eyJrIjoiZTcyMjM1NjktYTNkZi00N2Q2LWFhNjgtOGRkYjFkNTk2Y2YwIiwidCI6IjhhZWJkZGI2LTM0MTgtNDNhMS1hMjU1LWI5NjQxODZlY2M2NCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>""",unsafe_allow_html=True)
+    st.markdown("""<iframe title="Report Section" width="1024" height="804" src="<iframe title="Report Section" width="1024" height="1060" src="https://app.fabric.microsoft.com/view?r=eyJrIjoiZjk2OWMxNmYtM2NjYy00NDgwLWI5YTItZmM1Y2RlZGQ4OWQ3IiwidCI6IjhhZWJkZGI2LTM0MTgtNDNhMS1hMjU1LWI5NjQxODZlY2M2NCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>" frameborder="0" allowFullScreen="true"></iframe>""",unsafe_allow_html=True)
 
 elif option=='Conclusiones':
     col1,col2,col3=st.columns(3)
